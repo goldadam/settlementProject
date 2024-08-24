@@ -5,13 +5,14 @@ import lombok.Getter;
 import lombok.Setter;
 
 import java.io.Serializable;
+import java.sql.Date;
 
 @AllArgsConstructor
 @Getter
 @Setter
-public class JPEVDPK implements Serializable {
+public class CONRFPK implements Serializable {
 
+    private String wareky;
     private String vendcd;
-    private String jlced;
-    private String appdat;
+    private Date appdat;
 }
